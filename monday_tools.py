@@ -3,7 +3,7 @@ import os
 import streamlit as st
 URL = "https://api.monday.com/v2"
 headers = {
-    "Authorization": st.secrets("MONDAY_API_KEY")
+    "Authorization": st.secrets["MONDAY_API_KEY"]
 }
 deals_board_id = 5026984341
 work_orders_board_id = 5026984324
@@ -58,5 +58,6 @@ def get_work_orders():
     
     return orders
             
+
 
 
