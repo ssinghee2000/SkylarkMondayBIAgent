@@ -1,5 +1,5 @@
 
-# Monday Business Intelligence Agent
+# Skylark Business Intelligence Agent
 
 An AI-powered **Business Intelligence agent** that answers leadership-level business questions using **live data from monday.com boards**.  
 The system combines **LLM reasoning with a Python analytics layer** to transform operational data into actionable insights.
