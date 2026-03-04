@@ -2,7 +2,7 @@ from groq import Groq
 import time
 import streamlit as st
 
-client = Groq(api_key= "GROQ_API_KEY")
+client = Groq(api_key= st.secrets["GROQ_API_KEY"])
 
 def ask_llm(messages):
     system_prompt = {
@@ -33,4 +33,5 @@ def ask_llm(messages):
                     delay*=2
                 else:
                     raise e
+
     return "AI service temporarily unavailable. Please try again."
