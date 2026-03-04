@@ -197,7 +197,5 @@ The system separates **analytics computation from LLM reasoning**:
 Python → computes business metrics
 LLM → explains insights
 
-```
-
 This approach improves reliability and prevents hallucinated calculations.
-```
+
